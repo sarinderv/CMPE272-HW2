@@ -17,6 +17,10 @@ rest-service-HW2.zip ## Java Spring Maven project
 
 Backend is a Spring Boot REST service. Please see https://spring.io/guides/gs/spring-boot/ for more info.
 
+To run the service on localhost:8080, install Maven and then enter command `mvn spring-boot:run`
+
 App and Controller are in src/main/java
 
 Unit Tests are in src/test/java
+
+To run unit tests enter command `mvn test`
