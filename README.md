@@ -12,3 +12,11 @@ curl -X DELETE http://132.145.52.5:8080/tweet?id=1438971036683362318
 curl -X GET http://132.145.52.5:8080/timeline
 
 rest-service-HW2.zip ## Java Spring Maven project 
+
+## Spring Boot
+
+Backend is a Spring Boot REST service. Please see https://spring.io/guides/gs/spring-boot/ for more info.
+
+App and Controller are in src/main/java
+
+Unit Tests are in src/test/java
