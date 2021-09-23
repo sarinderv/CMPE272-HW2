@@ -26,10 +26,6 @@ public class TweetControllerTest {
 	@Autowired
 	private MockMvc mvc;
 
-	// in order to avoid creating numerous test tweets, keep track of the 
-	// created tweet id so it can then be deleted
-	//private String createdId;
-
 	String bad_id = "1110458664540659720";
 	String good_id = "1440458664540659720";
 
