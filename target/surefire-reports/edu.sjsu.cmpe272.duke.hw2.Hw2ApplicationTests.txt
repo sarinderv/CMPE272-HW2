@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: edu.sjsu.cmpe272.duke.hw2.Hw2ApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.226 s <<< FAILURE! - in edu.sjsu.cmpe272.duke.hw2.Hw2ApplicationTests
-edu.sjsu.cmpe272.duke.hw2.Hw2ApplicationTests  Time elapsed: 0.225 s  <<< ERROR!
-java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
-
