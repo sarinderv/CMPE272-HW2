@@ -24,3 +24,9 @@ App and Controller are in src/main/java
 Unit Tests are in src/test/java
 
 To run unit tests enter command `mvn test`
+
+## React
+
+Frontend is a React app using Axios to make the HTTP calls.
+
+To run the app in dev mode on localhost:3000, enter command `npm start`
