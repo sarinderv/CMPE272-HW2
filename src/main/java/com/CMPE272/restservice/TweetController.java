@@ -83,7 +83,7 @@ public class TweetController {
                 "JvP8GUapOkkFXCSWb3TQYw7YFkjm99VPiyl5mDdwdOZnR"));
 
         try {
-            // Delete a Tweet using Twitter4j API
+            // Create a Tweet using Twitter4j API
             Status status = twitter.updateStatus(text);
             return new Tweet(status.getCreatedAt().toString(), String.valueOf(status.getId()), status.getText());
         } catch (TwitterException e) {
